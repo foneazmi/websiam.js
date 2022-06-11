@@ -1,0 +1,19 @@
+{
+  "name": "websiam.js",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "Farkhan Azmi",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^14.3.0"
+  }
+}
