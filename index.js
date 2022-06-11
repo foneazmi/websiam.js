@@ -34,7 +34,6 @@ export const login = async (nim, password) => {
       message: "Login failed, please check your credentials and try again",
     };
   } else {
-    console.log(url);
     const element = await page2.waitForXPath('//div[@class="bio-info"]');
     let value = await page2.evaluate((el) => el.textContent, element);
     value
