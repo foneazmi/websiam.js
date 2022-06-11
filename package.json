@@ -1,12 +1,16 @@
 {
   "name": "websiam.js",
   "version": "0.0.1",
-  "description": "",
+  "description": "a simple implementation login base on siam.ub.ac.id",
   "type": "module",
   "main": "index.js",
   "keywords": [
     "scraping"
   ],
+  "bugs": {
+    "url": "https://github.com/foneazmi/websiam.js/issues"
+  },
+  "homepage": "https://github.com/foneazmi/websiam.js#readme",
   "author": "Farkhan Azmi",
   "license": "MIT",
   "dependencies": {
